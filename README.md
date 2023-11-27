@@ -1,4 +1,3 @@
-```markdown
 # Daily Email Report Automation Script
 
 This Python script automates the process of sending daily email reports using the `smtplib` and `schedule` libraries. It is a simple template that you can customize to fit your specific use case.
@@ -68,6 +67,3 @@ This Python script automates the process of sending daily email reports using th
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
-
-This README file includes installation instructions, your specified script name (`daily_mails.py`), and the link to your GitHub account. Feel free to customize it further if needed.
