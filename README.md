@@ -1,6 +1,7 @@
+```markdown
 # Daily Email Report Automation Script
 
-This Python script (`daily_mails.py`) automates the process of sending daily email reports using the `smtplib` and `schedule` libraries. It is a simple template that you can customize to fit your specific use case.
+This Python script automates the process of sending daily email reports using the `smtplib` and `schedule` libraries. It is a simple template that you can customize to fit your specific use case.
 
 ## Prerequisites
 
@@ -9,19 +10,19 @@ This Python script (`daily_mails.py`) automates the process of sending daily ema
 
 ## Installation
 
-1. Clone the repository or download the `daily_mails.py` file.
+1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/daily-email-reports.git
+    git clone https://github.com/manueldinisjunior/daily-email.git
     ```
 
-2. Navigate to the project directory.
+2. Navigate to the project directory:
 
     ```bash
-    cd daily-email-reports
+    cd daily-email
     ```
 
-3. Install the required dependencies.
+3. Install the required dependencies:
 
     ```bash
     pip install -r requirements.txt
@@ -29,7 +30,7 @@ This Python script (`daily_mails.py`) automates the process of sending daily ema
 
 ## Configuration
 
-1. Update the following variables in the `daily_mails.py` script:
+1. Update the following variables in the script (`daily_mails.py`):
 
     - `sender_email`: Your email address from which the report will be sent.
     - `receiver_email`: The recipient's email address.
@@ -62,8 +63,11 @@ This Python script (`daily_mails.py`) automates the process of sending daily ema
 
 ## Author
 
-- Manuel Dinis Junior
+- Manuel Dinis Junior ([GitHub](https://github.com/manueldinisjunior))
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+This README file includes installation instructions, your specified script name (`daily_mails.py`), and the link to your GitHub account. Feel free to customize it further if needed.
