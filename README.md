@@ -1,15 +1,35 @@
 # Daily Email Report Automation Script
 
-This Python script automates the process of sending daily email reports using the `smtplib` and `schedule` libraries. It is a simple template that you can customize to fit your specific use case.
+This Python script (`daily_mails.py`) automates the process of sending daily email reports using the `smtplib` and `schedule` libraries. It is a simple template that you can customize to fit your specific use case.
 
 ## Prerequisites
 
 - Python 3.x
 - `schedule` library (install using `pip install schedule`)
 
+## Installation
+
+1. Clone the repository or download the `daily_mails.py` file.
+
+    ```bash
+    git clone https://github.com/yourusername/daily-email-reports.git
+    ```
+
+2. Navigate to the project directory.
+
+    ```bash
+    cd daily-email-reports
+    ```
+
+3. Install the required dependencies.
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
 ## Configuration
 
-1. Update the following variables in the script:
+1. Update the following variables in the `daily_mails.py` script:
 
     - `sender_email`: Your email address from which the report will be sent.
     - `receiver_email`: The recipient's email address.
@@ -28,19 +48,21 @@ This Python script automates the process of sending daily email reports using th
 
 ## Usage
 
-1. Save the script with a `.py` extension.
-
-2. Run the script using a Python interpreter:
+1. Run the script using a Python interpreter:
 
     ```bash
-    python script_name.py
+    python daily_mails.py
     ```
 
-3. Keep the script running, and it will automatically send the daily email report at the scheduled time.
+2. Keep the script running, and it will automatically send the daily email report at the scheduled time.
 
 ## Important Note
 
 - Ensure that you handle sensitive information like email passwords securely. Consider using environment variables or a configuration file.
+
+## Author
+
+- Manuel Dinis Junior
 
 ## License
 
